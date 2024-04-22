@@ -1,0 +1,98 @@
+/* || CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* || Preview Card */
+
+body {
+  background-color: #f4d04e;
+  font-family: 'Figtree', sans-serif;
+}
+
+.preview-card {
+  background-color: white;
+  width: 384px;
+  height: 522px;
+  margin: 10% auto;
+  border: 2px solid black;
+  border-radius: 24px;
+  padding: 24px;
+  box-shadow: 10px 10px;
+}
+
+.preview-card img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.content {
+  margin: 24px 0;
+}
+
+.category {
+  display: flex;
+  width: 82px;
+  height: 29px;
+  background-color: #f4d04e;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.publish-date,
+.title {
+  display: block;
+}
+
+.publish-date {
+  font-size: 400;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.content p {
+  color: #7f7f7f;
+  font-size: 16px;
+}
+
+.author {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.author img {
+  width: 32px;
+  height: 32px;
+}
+
+.author span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.publish-date,
+.title,
+.content p,
+.author {
+  margin-top: 12px;
+}
